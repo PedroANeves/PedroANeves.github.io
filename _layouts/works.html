@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-<div style="text-align: center;">
+<div>
+{{ content }}
 {% for work in site.data.works %}
     <div>
         <a href="{{ work.link }}">
-            <h3>{{ work.name }}</h3>
-            <p>{{ work.description }}</p>
+            <strong>{{ work.name }}</strong> - {{ work.description }}
         </a>
     </div>
 {% endfor %}
