@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: doc.codices.net
+title: doc.codices.one
 email: todo@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Jack of all trades, master of none.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "doc.codices.net" #"doc.example.com" 
+url: "doc.codices.one" #"doc.example.com" 
 github_username:  PedroANeves
 
 # Build settings
