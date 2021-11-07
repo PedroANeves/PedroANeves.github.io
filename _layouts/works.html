@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div style="text-align: center;">
+{% for work in site.data.works %}
+    <div>
+        <a href="{{ work.link }}">
+            <h3>{{ work.name }}</h3>
+            <p>{{ work.description }}</p>
+        </a>
+    </div>
+{% endfor %}
+</div>
