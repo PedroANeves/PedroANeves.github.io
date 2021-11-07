@@ -74,3 +74,8 @@ a:hover {
     padding-left: 4rem;
     padding-right: 4rem;
 }
+
+.disabled {
+    text-decoration: line-through;
+    color: #393E46;
+}
